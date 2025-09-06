@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "nodemon server.js",
+    "spa": "npm i && cd client && npm i && npm run build"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
